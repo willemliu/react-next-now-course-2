@@ -1,0 +1,10 @@
+{
+    "name": "course-2",
+    "version": 2,
+    "routes": [
+        {
+            "src": "/(?<section>.+)/(?<id>\\d+)",
+            "dest": "/index?section=$section&id=$id"
+        }
+    ]
+}
