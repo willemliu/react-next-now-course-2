@@ -18,7 +18,7 @@ function Index(props: any) {
                 text={"This is a paragraph. Why don't you click me?"}
             />
             <div>
-                <Link href="/data">
+                <Link href="/DataPage">
                     <a>* Difference between SSR and CSR.</a>
                 </Link>
             </div>
